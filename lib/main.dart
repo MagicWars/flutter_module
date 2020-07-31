@@ -6,7 +6,8 @@ import 'store.dart';
 import 'page/practice/list_view/normal_list.dart';
 import 'page/temp.dart';
 import 'page/basic_widgets/pet_card_view.dart';
-
+import 'page/practice/grid_view/index.dart';
+import 'page/practice/index.dart';
 
 import 'page/basic_widgets/mock_data.dart';
 
@@ -41,12 +42,13 @@ class MyApp extends StatelessWidget {
             title: Text("Bank Card"),
           ),
           //body: NormalList(),
-          body:ListView(
-            children: <Widget>[
-              PetCard(data: petCardViewModel),
-              PetCard(data: petCardViewModel)
-            ],
-          ),
+//          body:ListView(
+//            children: <Widget>[
+//              PetCard(data: petCardViewModel),GridViewDemo()
+//              PetCard(data: petCardViewModel)
+//            ],
+//          ),
+            body:PracticeIndex()
         ),
       );
   }
