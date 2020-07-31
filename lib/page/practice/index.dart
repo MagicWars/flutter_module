@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_module/page/practice/grid_view/meituan_service.dart';
 import 'package:flutter_module/page/practice/list_view/normal_list.dart';
 
+///2020年7月31日20:00:15 http请求+TabBar TabBarView
 class PracticeIndex extends StatefulWidget {
   @override
   _PracticeIndexState createState() => _PracticeIndexState();
